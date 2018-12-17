@@ -3,3 +3,4 @@ dist
 spark_executor.egg-info
 .eggs
 */__pycache__
+*.pyc
