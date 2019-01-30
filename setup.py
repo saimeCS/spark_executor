@@ -19,8 +19,8 @@ setup(
     test_suite='nose.collector',
     tests_require=['nose'],
     install_requires=[
-        'pyspark==2.3.2',
-        'executor-framework==0.1',
+        'pyspark>=2.3.2',
+        'executor-framework>=0.1',
     ],
     dependency_links=['git+https://github.com/saimeCS/fwexecutor.git@0.1#egg=executor-framework-0.1']
 )
